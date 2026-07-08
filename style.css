@@ -1,0 +1,165 @@
+body{
+      margin: 0; /*isse sara margin jo tha hat gya*/
+      font-family: Roboto,sans-serif;
+      display: flex;
+      flex-direction: column;
+}
+
+header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center; /* Vertically centers them */
+      padding:16px 15%; /*here 15% is adding the horizontal padding means : left, right*/
+      background-color: #1F2937;
+}
+
+.logo{
+      font-size: 24px;
+      color: #F9FAF8;
+      font-weight: bold;
+}
+
+nav ul{
+      list-style: none; /* to remove the . which was default due to ul */
+      display: flex;
+      gap: 24px;
+      margin: 0;
+      padding: 0;
+}
+
+nav a{
+      text-decoration: none;
+      color: #E5E7EB;
+      font-size: 18px;
+}
+
+.hero-section{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 100px 15%;
+      background-color: #1F2937;
+}
+
+.hero-content{
+      flex: 1; /* half space will be taken */
+      padding-right: 40px;
+}
+
+.hero-content h1{
+      font-size: 48px;
+      font-weight: 900;
+      color: #F9FAF8;
+      margin-top: 0;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 24px;
+}
+
+
+.hero-image{
+      flex: 1;
+      background-color: gray;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+}
+
+button{
+      background-color: #3882F6;
+      color: white;
+      border: none;
+      padding: 10px 25px; /*{top botton} {left right}*/
+      border-radius: 8px;
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+}
+
+.information{
+      padding: 50px 15%;
+      text-align: center;
+}
+
+.information h2{
+      font-size: 36px;
+      color: #1F2937;
+      font-weight: 900;
+      margin-bottom: 35px;
+}
+
+.card-container{
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+}
+
+.card{
+      width: 150px;
+      text-align: center;
+}
+
+.card img {
+      width: 150px;
+      height: 150px;
+      border: 4px solid #3882F6; 
+      border-radius: 16px;
+      box-sizing: border-box;
+}
+
+.testimonials{
+      background-color: #E5E7EB;
+      padding: 100px 20%;
+}
+
+blockquote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1F2937;
+  margin: 0 0 20px 0;
+}
+
+.author {
+  text-align: right;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.call-to-action {
+  padding: 100px 15%;
+}
+
+.cta-container {
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.cta-text h3 {
+  margin: 0 0 8px 0;
+}
+
+.cta-text p {
+  margin: 0;
+  color: #E5E7EB;
+}
+
+.cta-container button {
+  border: 2px solid white;
+}
+footer {
+  background-color: #1F2937;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
